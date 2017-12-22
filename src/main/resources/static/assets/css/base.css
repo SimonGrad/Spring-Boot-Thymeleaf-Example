@@ -1,0 +1,18 @@
+.breadcrumb {
+    margin: 0 7px;
+  	left: 50%;
+  	position: absolute;
+}
+
+.navbar-brand{ 
+  background: url('/assets/images/eassignment.png') center / contain no-repeat;
+  width: 200px;
+  margin-left: 0 !important;
+}
+
+@media (min-width: 768px) {
+    .breadcrumb {
+        float: left;
+        margin: 7px 10px;
+    }
+}
